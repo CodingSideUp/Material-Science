@@ -51,11 +51,12 @@ pip install torch-geometric torch-scatter torch-sparse torch-cluster -f https://
 
 ## Notebooks Overview
 ```
-Notebook	Description
-Data_collection.ipynb	Collects and computes geometry and porosity features from the QMOF dataset.
-atomic_data.ipynb	Aggregates atom-site DFT data and merges with geometric features.
-EDA_XGB_latest.ipynb	Exploratory data analysis and XGBoost regression for property prediction.
-CGCNN_final.ipynb	Trains a Crystal Graph Convolutional Neural Network (CGCNN) for bandgap prediction.
+Notebooks and their Description:
+
+Data_collection.ipynb: Collects and computes geometry and porosity features from the QMOF dataset.
+atomic_data.ipynb: Aggregates atom-site DFT data and merges with geometric features.
+EDA_XGB_latest.ipynb: Exploratory data analysis and XGBoost regression for bandgap prediction.
+CGCNN_final.ipynb: Trains a Crystal Graph Convolutional Neural Network (CGCNN) for bandgap prediction.
 ```
 
 ## Results Summary
